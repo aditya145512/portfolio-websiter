@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d1b2a;
+      color: white;
+      text-align: center;
+    }
+
+    /* Gallery Section */
+    .gallery {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      padding: 40px 20px;
+    }
+
+    .gallery img {
+      width: 180px;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 20px;
+      transition: all 0.5s ease;
+      filter: grayscale(100%);
+      cursor: pointer;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+      filter: grayscale(0%);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    }
+
+    /* Bio Section */
+    .bio {
+      margin-top: 30px;
+      padding: 20px;
+      background: #1b263b;
+      border-radius: 15px;
+      display: inline-block;
+    }
+
+    .bio h2 {
+      margin: 10px 0;
+      font-size: 28px;
+    }
+
+    .bio p {
+      font-size: 16px;
+      color: #ccc;
+    }
+
+    /* Social Links */
+    .social {
+      margin-top: 20px;
+    }
+
+    .social a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .social a:hover {
+      color: #00acee;
+    }
+
+    .note {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #f05454;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Gallery -->
+  <div class="gallery">
+    <img src="c:\Users\dell\Pictures\WhatsApp Image 2025-08-29 at 15.35.44_dab5aa92.jpg" alt="pic1">
+    <img src="c:\Users\dell\Pictures\WhatsApp Image 2025-08-29 at 15.39.17_387f0ea0.jpg" alt="pic2">
+    <img src="c:\Users\dell\Pictures\WhatsApp Image 2025-08-29 at 15.34.35_79e4fc54.jpg" alt="pic3">
+    <img src="c:\Users\dell\Pictures\WhatsApp Image 2025-08-29 at 15.39.17_d05d299d.jpg" alt="pic4">
+    <img src="c:\Users\dell\Pictures\WhatsApp Image 2025-08-29 at 15.39.16_68f07d72.jpg" alt="pic5">
+  </div>
+
+  <!-- Biography -->
+  <div class="bio">
+    <h2>Aditya Singh</h2>
+    <p>Web Developer | Tech Enthusiast | Creative Designer</p>
+    <p>Passionate about coding, photography, and exploring new ideas.</p>
+
+    <!-- Social Links -->
+    <div class="social">
+      <a href="https://t.ly/W_NDg" target="_blank">📷 whatsapp</a>
+      <a href="tel:+91-7235928827">📞 Call Me</a>
+    </div>
+
+    <p class="note">Not interested Instagram "a royal soul doesn' t chase, it attaracts"  🚫</p>
+  </div>
+
+</body>
+</html>
